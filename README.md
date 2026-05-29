@@ -1,6 +1,3 @@
-# van-emde-boas-tree
-A high-performance C++ implementation of the Van Emde Boas Tree featuring sparse storage, bit-level optimizations for small universes, and efficient O(log log U) query support.
-
 # Introduction
 This repository contains my **CS201 – Data Structures** project:  
 an **optimized, space-efficient implementation of the Van Emde Boas (vEB) Tree** in C++.
