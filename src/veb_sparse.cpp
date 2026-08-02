@@ -251,7 +251,11 @@ struct vebsparse {
         }
         //INSERT
         void insertempty(u64 x){
-                minv = maxv = (i64)x;
+                minv = maxv = x;
+                if (smallMode)
+                        sm_insert(x);
+                else if (mediumMode)
+                        md_insert(x);
         }
         void insert(u64 x){
                 //small-mode
